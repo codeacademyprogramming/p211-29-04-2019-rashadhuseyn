@@ -1,0 +1,115 @@
+* {
+   text-decoration: none;
+box-sizing: border-box;
+}
+
+
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 100px;
+    width: 100%;
+    font-size: 20px;
+    position: fixed;
+}
+
+
+.right {
+    display: flex;
+    justify-content: space-around;
+
+}
+ .child {
+   padding: 0 30px;  
+ }
+
+ section {
+     display: flex;
+     background-color:  #6c757d;
+     background-image: url("bg1.jpg");
+     justify-content: center;
+     align-content: center;
+    }
+
+  .komp {
+      display: flex;
+    justify-content: center;
+    align-content: center;
+  }  
+  .div div {
+     max-height: 100vh;
+     
+  }
+
+  .img{
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2em;
+    color: #6c757d;
+  }
+
+  .getstarted {
+    background-color: #64a19d;
+    padding: 18px 22px;
+    display: inline-block;
+    justify-content: center;
+
+  }
+
+  .ipad 
+  {
+    color: #6c757d;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 60px;
+    font-size: 20px;
+  }
+  .ipad img {
+    width: 70%;
+  }
+
+  .second {
+    margin: 70px 10% 0;
+    background-color: black;
+    color: #6c757d;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+
+
+  }
+#asd {
+  width: 90%;
+}
+  .idea {
+    display: flex;
+  }
+  .seconddiv {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 50%;
+  }
+
+
+  hr {
+    width: 60px;
+  }
+
+  .sekil img {
+    width: 80%;
+  }
+
+#fin {
+  flex-direction: row-reverse;
+}
+
+#fin img {
+  margin-left: 130px;
+}
